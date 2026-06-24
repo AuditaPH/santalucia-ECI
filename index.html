@@ -239,7 +239,7 @@ body{font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,sans-serif;backgrou
       <div class="alert-icon">⚠️</div>
       <div class="alert-text">
         <h3>Acción requerida por la Administración y el Consejo</h3>
-        <p>Se identificaron <strong>7 brechas de cumplimiento normativo</strong>, 6 de impacto alto. Este documento no constituye dictamen. La auditoría se ejecuta por etapas bajo las NIA adaptadas.</p>
+        <p>Se identificaron <strong>6 brechas de cumplimiento normativo</strong>, 5 de impacto alto. Este documento no constituye dictamen. La auditoría se ejecuta por etapas bajo las NIA adaptadas.</p>
       </div>
     </div>
 
@@ -252,17 +252,17 @@ body{font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,sans-serif;backgrou
     </div>
 
     <div class="kpi-grid">
-      <div class="kpi-card kpi-total"><div class="kpi-icon">📋</div><div class="kpi-val">7</div><div class="kpi-lbl">Brechas identificadas</div><div class="kpi-sub">Período: Mayo 2026</div></div>
-      <div class="kpi-card kpi-alto"><div class="kpi-icon">🔴</div><div class="kpi-val">6</div><div class="kpi-lbl">Impacto Alto</div><div class="kpi-sub">86% del total</div></div>
-      <div class="kpi-card kpi-bajo"><div class="kpi-icon">🟢</div><div class="kpi-val">1</div><div class="kpi-lbl">Impacto Bajo</div><div class="kpi-sub">14% del total</div></div>
+      <div class="kpi-card kpi-total"><div class="kpi-icon">📋</div><div class="kpi-val">6</div><div class="kpi-lbl">Brechas identificadas</div><div class="kpi-sub">Período: Mayo 2026</div></div>
+      <div class="kpi-card kpi-alto"><div class="kpi-icon">🔴</div><div class="kpi-val">5</div><div class="kpi-lbl">Impacto Alto</div><div class="kpi-sub">83% del total</div></div>
+      <div class="kpi-card kpi-bajo"><div class="kpi-icon">🟢</div><div class="kpi-val">1</div><div class="kpi-lbl">Impacto Bajo</div><div class="kpi-sub">17% del total</div></div>
     </div>
 
     <div class="score-banner">
       <div class="score-donut">
         <svg class="donut-svg" width="120" height="120" viewBox="0 0 120 120">
           <circle class="donut-bg"   cx="60" cy="60" r="45"/>
-          <circle class="donut-alto" cx="60" cy="60" r="45" stroke-dasharray="242.4 40.3"/>
-          <circle class="donut-bajo" cx="60" cy="60" r="45" stroke-dasharray="40.4 242.3" stroke-dashoffset="-242.4"/>
+          <circle class="donut-alto" cx="60" cy="60" r="45" stroke-dasharray="235.6 47.1"/>
+          <circle class="donut-bajo" cx="60" cy="60" r="45" stroke-dasharray="47.1 235.6" stroke-dashoffset="-235.6"/>
         </svg>
         <div class="donut-center"><div class="donut-num">0%</div><div class="donut-cap">Conformidad</div></div>
       </div>
@@ -272,7 +272,7 @@ body{font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,sans-serif;backgrou
         <p>Las 6 brechas de impacto alto abarcan materias críticas de seguridad laboral, salubridad, cobertura aseguradora y gobierno corporativo. Todos los hallazgos se encuentran en estado "No Iniciado" y requieren atención prioritaria por parte de la Administración y el Consejo. La Revisoría Fiscal acompañará el seguimiento en las siguientes etapas.</p>
       </div>
       <div class="score-legend">
-        <div class="leg-item"><div class="leg-dot" style="background:#e74c3c"></div>Alto (6)</div>
+        <div class="leg-item"><div class="leg-dot" style="background:#e74c3c"></div>Alto (5)</div>
         <div class="leg-item"><div class="leg-dot" style="background:#27ae60"></div>Bajo (1)</div>
       </div>
     </div>
@@ -280,8 +280,8 @@ body{font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,sans-serif;backgrou
     <div class="dist-section">
       <div class="dist-title">Distribución por Nivel de Impacto</div>
       <div class="dist-bars">
-        <div class="dist-row"><div class="dist-lbl alto">ALTO</div><div class="dist-track"><div class="dist-fill alto" style="width:85.7%"></div></div><div class="dist-count">6 hallazgos</div><div class="dist-pct">86%</div></div>
-        <div class="dist-row"><div class="dist-lbl bajo">BAJO</div><div class="dist-track"><div class="dist-fill bajo" style="width:14.3%"></div></div><div class="dist-count">1 hallazgo</div><div class="dist-pct">14%</div></div>
+        <div class="dist-row"><div class="dist-lbl alto">ALTO</div><div class="dist-track"><div class="dist-fill alto" style="width:83.3%"></div></div><div class="dist-count">6 hallazgos</div><div class="dist-pct">86%</div></div>
+        <div class="dist-row"><div class="dist-lbl bajo">BAJO</div><div class="dist-track"><div class="dist-fill bajo" style="width:16.7%"></div></div><div class="dist-count">1 hallazgo</div><div class="dist-pct">14%</div></div>
       </div>
     </div>
 
@@ -295,10 +295,10 @@ body{font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,sans-serif;backgrou
   <!-- TAB 2: HALLAZGOS -->
   <div id="tab-hallazgos" class="tab-content">
     <div class="filter-bar">
-      <button class="fbtn active-all" onclick="filterCards('Todos',this)">Todos (7)</button>
-      <button class="fbtn" onclick="filterCards('Alto',this)">🔴 Alto (6)</button>
+      <button class="fbtn active-all" onclick="filterCards('Todos',this)">Todos (6)</button>
+      <button class="fbtn" onclick="filterCards('Alto',this)">🔴 Alto (5)</button>
       <button class="fbtn" onclick="filterCards('Bajo',this)">🟢 Bajo (1)</button>
-      <div class="filter-info" id="filter-info">Mostrando 7 de 7</div>
+      <div class="filter-info" id="filter-info">Mostrando 6 de 6</div>
     </div>
     <div class="cards-grid" id="cards-grid"></div>
   </div>
@@ -364,17 +364,6 @@ var hallazgos = [
     "normativa": "Ley 675 de 2001, Art. 15 (deber de asegurar adecuadamente los bienes comunes). CTCP, Orientación Técnica N.° 15 (revisada 2024) — tratamiento contable de copropiedades. Condiciones generales de las pólizas de propiedad.",
     "riesgos": "• Subcobertura ante siniestro: Un avalúo desactualizado puede resultar en indemnizaciones insuficientes ante un siniestro mayor, con pérdida patrimonial directa para los copropietarios.\n• Estados financieros no razonables: La presentación de activos a valores obsoletos compromete la razonabilidad de la información contable aprobada en Asamblea.\n• Decisiones de inversión distorsionadas: El Consejo no puede tomar decisiones informadas sobre mantenimiento o mejoras con base en valores depreciados o desactualizados.",
     "plan": "(1) Contratar avaluador inscrito en el Registro Nacional de Avaluadores (RNA) para actualizar el avalúo comercial de los bienes comunes antes del vencimiento del ciclo bienal.\n(2) Con el nuevo avalúo, actualizar los valores asegurados en la póliza de zonas comunes e informar a la aseguradora.\n(3) Reflejar el avalúo actualizado en los estados financieros con el soporte contable correspondiente.",
-    "impacto": "Alto",
-    "estado": "No Iniciado",
-    "es_nuevo": true
-  },
-  {
-    "id": 4,
-    "titulo": "Pruebas de Potabilidad — Pendientes de Realización",
-    "descripcion": "Durante la revisión documental y de cumplimiento normativo se evidenció que las pruebas de potabilidad en los tanques de almacenamiento de agua potable, y los análisis físico-químicos o microbiológicos, se encuentran pendientes por realizar. La última prueba fue efectuada el 11 de diciembre de 2025. La administración informa que definió realizarlas anualmente, sin embargo, a la fecha de corte no existe soporte de su ejecución en el período auditado.",
-    "normativa": "Decreto 1575 de 2007, Art. 10 (control de calidad del agua almacenada). Resolución 2115 de 2007 — parámetros de calidad del agua potable y frecuencias de análisis.",
-    "riesgos": "• Responsabilidad Penal y Civil: Si ocurre un brote de enfermedad (E. coli, gastroenteritis masiva), el administrador no puede demostrar que el agua fue controlada. La prueba de potabilidad es la única evidencia defensiva disponible.\n• Clausura Sanitaria: La Secretaría de Salud puede ordenar el sellamiento inmediato de los tanques ante una inspección sorpresa, dejando al conjunto sin reserva de agua potable hasta subsanar el hallazgo.",
-    "plan": "(1) Programar de manera inmediata la realización de pruebas físico-químicas y microbiológicas del agua, a través de laboratorios autorizados por el Ministerio de Salud.\n(2) Divulgar los resultados a los residentes como medida de transparencia y tranquilidad colectiva.\n(3) Establecer programación anual certificada de estas pruebas como control permanente con evidencia documental.",
     "impacto": "Alto",
     "estado": "No Iniciado",
     "es_nuevo": true
